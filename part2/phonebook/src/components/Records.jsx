@@ -5,7 +5,7 @@ const Records = (props) => {
     <>
     <h2>Numbers:</h2>
         {props.persons.map((record) => (
-              <OneRecord key={record.name} person={record}/>
+              <OneRecord key={record.name} person={record} deleteRecord={props.deleteRecord}/>
         ))}  
     </>
   )

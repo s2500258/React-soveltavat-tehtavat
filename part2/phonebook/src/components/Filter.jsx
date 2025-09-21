@@ -5,7 +5,7 @@ const Filter = (props) => {
             <input 
                 value={props.search}
                 onChange={props.handleSetSearch}
-        />
+            />
         </>
     )
 }

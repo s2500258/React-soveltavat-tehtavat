@@ -1,8 +1,9 @@
 const OneRecord = (props) => {
   return (
-            <p>
+            <div>
                 {props.person.name}, {props.person.number}
-            </p> 
+                <button id={props.person.id} onClick={props.deleteRecord}>Delete</button>
+            </div>
     )}  
 
 export default OneRecord;

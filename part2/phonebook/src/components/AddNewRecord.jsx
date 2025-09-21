@@ -10,6 +10,7 @@ const AddNewRecord = (props) => {
                 onChange={props.handleNameChange}
         />
         </div>
+        <br></br>
         <div>
             number: 
             <input 
@@ -17,6 +18,7 @@ const AddNewRecord = (props) => {
                 onChange={props.handleNumberChange}
         />
         </div>
+        <br></br>
         <div>
           <button type="submit">add</button>
         </div>
